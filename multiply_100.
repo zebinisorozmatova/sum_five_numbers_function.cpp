@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int mult100(int x) {
+    return x * 100;
+}
+
+int main() {
+    cout << mult100(7);
+}
